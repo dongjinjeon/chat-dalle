@@ -5,7 +5,7 @@ import streamlit as st
 openai.api_key = os.environ.get(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)
 
 st.set_page_config(
-    page_title="ChatGPT + DALL-E 2",
+    page_title="CHINGUART",
     page_icon="✨",
     layout="centered",
     initial_sidebar_state="auto",
