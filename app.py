@@ -42,7 +42,7 @@ st.sidebar.image(bottom_image,use_column_width='auto')
 st.image(main_image,use_column_width='auto')
 st.title("📄 CHINGUART")
 
-if format_type == "StableDiffusion":
+if format_type == "ChatGPT":
     input_text = st.text_area("Please enter text here... 🙋",height=50)
     chat_button = st.button("Do the Magic! ✨")
 
