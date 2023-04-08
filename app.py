@@ -2,7 +2,7 @@ import os
 import openai
 from PIL import Image
 import streamlit as st
-openai.api_key = os.environ.get(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)
+openai.api_key = os.environ.get('OpenAI_API_Key')
 
 st.set_page_config(
     page_title="CHINGUART",
