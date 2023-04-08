@@ -40,9 +40,9 @@ format_type = st.sidebar.selectbox('Choose your OpenAI magician 😉',["ChatGPT"
 st.sidebar.image(bottom_image,use_column_width='auto')
 
 st.image(main_image,use_column_width='auto')
-st.title("📄 ChatGPT + DALL-E 🏜 Streamlit")
+st.title("📄 CHINGUART")
 
-if format_type == "ChatGPT":
+if format_type == "StableDiffusion":
     input_text = st.text_area("Please enter text here... 🙋",height=50)
     chat_button = st.button("Do the Magic! ✨")
 
@@ -64,5 +64,5 @@ else:
     else:
         st.warning("Please enter something! ⚠")
 
-st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:ralhanprateek@gmail.com?subject=ChatGPT + DALL-E WebApp!&body=Please specify the issue you are facing with the app.'><strong>Prateek Ralhan</strong></a></center><hr>", unsafe_allow_html=True)
+st.markdown("<br><hr><center>CHINGUART <a href='mailto:hello@metatrend.co.kr?subject=ChatGPT + DALL-E WebApp!&body=Please specify the issue you are facing with the app.'><strong>Prateek Ralhan</strong></a></center><hr>", unsafe_allow_html=True)
 st.markdown("<style> footer {visibility: hidden;} </style>", unsafe_allow_html=True)
