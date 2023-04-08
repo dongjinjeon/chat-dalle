@@ -26,7 +26,7 @@ def openai_image(prompt):
     response = openai.Image.create(
       prompt=prompt,
       n=1,
-      size="256x256"
+      size="512x512"
     )
     image_url = response['data'][0]['url']
     return image_url
@@ -36,7 +36,7 @@ bottom_image = Image.open('static/banner_bottom.png')
 main_image = Image.open('static/main_banner.png')
 
 st.sidebar.image(top_image,use_column_width='auto')
-format_type = st.sidebar.selectbox('Choose your OpenAI magician 😉',["ChatGPT","DALL-E 2"])
+format_type = st.sidebar.selectbox('Choose your OpenAI magician 😉',["StableDifusion","DALL-E 2"])
 st.sidebar.image(bottom_image,use_column_width='auto')
 
 st.image(main_image,use_column_width='auto')
@@ -64,5 +64,5 @@ else:
     else:
         st.warning("Please enter something! ⚠")
 
-st.markdown("<br><hr><center>CHINGUART <a href='mailto:hello@metatrend.co.kr?subject=ChatGPT + DALL-E WebApp!&body=Please specify the issue you are facing with the app.'><strong>Prateek Ralhan</strong></a></center><hr>", unsafe_allow_html=True)
+st.markdown("<br><hr><center>CHINGUART <a href='mailto:hello@metatrend.co.kr?subject=StableDiffusion + DALL-E WebApp!&body=Please specify the issue you are facing with the app.'><strong>Prateek Ralhan</strong></a></center><hr>", unsafe_allow_html=True)
 st.markdown("<style> footer {visibility: hidden;} </style>", unsafe_allow_html=True)
