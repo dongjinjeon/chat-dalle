@@ -64,5 +64,5 @@ else:
     else:
         st.warning("Please enter something! ⚠")
 
-st.markdown("<br><hr><center>CHINGUART <a href='mailto:hello@metatrend.co.kr?subject=StableDiffusion + DALL-E WebApp!&body=Please specify the issue you are facing with the app.'><strong>Prateek Ralhan</strong></a></center><hr>", unsafe_allow_html=True)
+st.markdown("<br><hr><center>CHINGUART <a href='mailto:hello@metatrend.co.kr?subject=StableDiffusion + DALL-E WebApp!&body=Please specify the issue you are facing with the app.'><strong>Kr</strong></a></center><hr>", unsafe_allow_html=True)
 st.markdown("<style> footer {visibility: hidden;} </style>", unsafe_allow_html=True)
